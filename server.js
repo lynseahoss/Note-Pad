@@ -25,7 +25,7 @@ app.delete("/api/notes/:id",(req, res)=>{
     if (err) console.log(err)
     notes = newArray
     res.sendStatus(200)
-  })
+  }) 
 })
 
 app.post("/api/notes", (req,res)=>{
