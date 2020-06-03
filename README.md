@@ -1,7 +1,7 @@
 # Note-Pad
 ## Project Description
 
-[Template Engine README](https://lynseahoss.github.io/Template-Engine/)
+[Note-Pad Heroku Application](https://gentle-wildwood-63944.herokuapp.com/)
 
 This project is a simple application that allows users to create, save and delete notes. The user is able to use the text field to enter a note which is then stored in an array on a server. The application is deployed on Heroku for the server to run and function properly.   
 
