@@ -11,9 +11,9 @@ let notes = require('./db/db.json')
 app.get("/notes", (req, res) => {
   res.sendFile(path.join(__dirname + "/public/notes.html"))
 })
-// app.get("*", (req, res) => {
-//   res.sendFile(path.join(__dirname + "/public/index.html"))
-// })
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/public/index.html"))
+})
 
 app.get("/api/notes",(req, res)=>{
   return res.json(notes);
